@@ -1,0 +1,562 @@
+
+
+@media (max-width: 768px) {
+
+    .main-box-width {
+
+        max-width: 300px;
+
+    }
+
+    .main-box-width h1 {
+
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+
+    .main-box-width p {
+
+        font-size: 14px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-section-btns {
+
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .btn-2 {
+
+        padding: 5px 10px;
+
+    }
+
+    .btn-3 {
+
+        padding: 5px 10px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .scroll-container {
+        width: 100%;
+        overflow: hidden;
+        padding: 10px 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cstm-text-industry-section h1 {
+
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+
+    .cstm-text-industry-section p {
+
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    .our-industry-section {
+
+        padding-top: 10px;
+        background-image: url("images/background.webp");
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .c-card {
+
+        width: 22rem;
+        height: 12rem;
+        text-align: center;
+
+    }
+
+    .cstm-card-industry-section h5 {
+
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .cstm-card-industry-section p {
+
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .small-icon-section {
+
+        padding-left: 70px;
+    }
+
+    .small-icon-section h6 {
+
+        font-size: 13px;
+        margin-top: 12px;
+    }
+
+    .c-card-bg {
+
+        width: 22rem;
+        height: 8rem;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .main-background-section-technology {
+
+        margin-top: 50px;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-background-section-technology {
+
+        height: 100%;
+        width: 100%;
+        background-size: 300px 350px;
+        position: relative;
+        left: 0;
+
+    }
+
+    .c-card-technology-hide-in-small-phone {
+
+        display: none;
+    }
+
+    .c-card-technology {
+
+        width: 19rem;
+        height: 12rem;
+        padding: 20px;
+
+    }
+
+    .cstm-card-technology-section h5 {
+
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .cstm-card-technology-section p {
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .business-intelligence-section {
+
+
+        height: 100%;
+        margin-top: 20px;
+        position: relative;
+        right: 0;
+    }
+
+    .business-section-top-padding {
+
+        padding-top: 10px;
+
+    }
+
+    .business-text-section h1 {
+
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .business-text-section p {
+
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    .business-text-section-image img {
+        width: 300px;
+        margin-top: 30px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .product-section {
+
+        background-image: url(images/big-building.webp);
+        background-size: cover;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .product-section-top-padding {
+
+        padding-top: 0px;
+
+    }
+
+    .product-text-section h1 {
+
+        font-size: 28px;
+        font-weight: 700;
+
+    }
+
+
+    .product-text-section p {
+
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 20px;
+        line-height: 1.5;
+
+    }
+
+    .poduct-cards-section-hide-in-small-phone {
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 786px) {
+
+
+    .schedule-a-call-section {
+
+        background-image: url(images/blue-background-image.webp);
+        background-size: cover;
+        height: 50vh;
+
+
+    }
+
+    .main-text-few-question h2 {
+
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .main-text-few-question h1 {
+
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .schedule-mini-text-1 h5 {
+
+        color: white;
+        font-size: 25px;
+    }
+
+    .schedule-mini-text-1 span {
+
+        font-size: 15px;
+    }
+
+    .btn-3 {
+
+        padding: 5px 15px;
+
+    }
+
+    .schedule-a-call-section-flex-last-items {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 50px 50px;
+
+
+
+    }
+
+    .schedule-a-call-section {
+
+        background-image: url(images/blue-background-image.webp);
+        background-size: cover;
+        margin-top: 440px;
+        height: 100%;
+        padding: 10px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    .what-our-client-says-text-section {
+
+        text-align: center;
+
+    }
+
+    .what-our-client-says-text-section h2 {
+
+        font-size: 27px;
+        font-weight: 700;
+
+    }
+
+    .what-our-client-says-text-section p {
+
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 10px;
+        line-height: 1.5;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    .reputable-clients-text {
+
+        text-align: center;
+    }
+
+    .reputable-clients-text h1 {
+
+        font-size: 29px;
+        font-weight: 700;
+    }
+
+    .reputable-clients-text p {
+
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cstm-bank-images-section-small-device .bank-images img {
+
+        padding-left: 100px;
+        width: 290px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cstm-iframe-according-mobile-device iframe {
+
+        width: 330px;
+        height: 200px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .testimonial-card {
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+    .testimonial-card p {
+
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    .main-about-banner-section {
+
+
+        background-image:
+            linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%),
+            url("images/about-banner.webp");
+        background-position: left;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        opacity: 0.6;
+    }
+
+    .about-text-heading {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .about-text-paragraph p {
+
+        font-size: 16px;
+
+        font-weight: 500;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .Philosophy-main-about-section {
+
+        background-color: #314a84;
+        color: white;
+
+    }
+
+    .Philosophy-text-section h1 {
+
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .Philosophy-text-section p {
+
+        font-size: 10px;
+        font-weight: 300;
+        padding: 0px;
+
+    }
+
+    .Philosophy-text-section {
+
+        text-align: left;
+
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .link-items-whole-contact {
+
+        margin-top: 100px;
+    }
+
+    .contact-text-heading {
+
+        font-size: 30px;
+
+    }
+
+    .contact-text-paragraph p {
+
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .for-small-device-top-margin-get-in-touch-section {
+
+        margin-top: 50px;
+    }
+
+    .karachi-contact-text-section h1 {
+
+        font-size: 25px;
+
+    }
+
+    .karachi-contact-text-section p {
+
+        font-size: 17px;
+
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .global-main-Section-Contact-Us {
+
+        margin-top: 50px;
+    }
+
+    .global-section-text-contact h1 {
+
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .global-section-text-contact p {
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .contact-us-map-sectiom-image img {
+
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .aside-want-to-be-a-part-section {
+
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .want-to-be-a-part-contact-section-text h1 {
+
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+}
