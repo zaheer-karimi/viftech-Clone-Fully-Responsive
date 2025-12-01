@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <!---------------Fav-Icons---------------------------------->
+    <link rel="icon" type="image/png" href="images/logo1.webp">
+    <!---------------------Custom-Css------------------------------->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-----Responsive.Css-->
+
+    <link rel="stylesheet" href="responsive.css">
+
+    <!---------------Animation-Liabaary------------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-----------------Google-Font-Cdn-------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-------------Bootstap-Css-file-------------------------------->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!---------------Bootsrap-Icons-Cdn-------------------------------->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!--------------------Navbar--------------------------->
+    <header>
+        <nav class="navbar navbar-expand-sm p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo1.webp" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="text-black">Services</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="
+                dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="text-black">Product</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="text-black">Contact</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="contactus.html">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header-flex">
+                        <div class="click-open-modal">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#contactModal">Schedule A Call</a>
+                        </div>
+                        <a href="#">
+                            <button type="button" class="btn-1 all-in-one-btn">Get a quoute</button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--------------------Navbar-End--------------------------->
+
+
+
+
+    <!------------------Modal-Section----------------------------->
+
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg"> <!-- Large modal for more space -->
+            <div class="modal-content text-dark">
+
+                <div class="modal-body bg-secondary text-white">
+                    <div class="row">
+
+                        <!-- Left Side (6 cols) -->
+                        <div class="col-md-5 d-flex flex-column justify-content-center align-items-center">
+
+                            <img src="images/modal-picture.jpg" alt="Contact Us" class="img-fluid rounded shadow">
+                        </div>
+
+                        <!-- Right Side (6 cols) - Contact Section -->
+                        <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+
+                        <div class="col-md-7">
+                            <h4 class="mb-3"> Schedule A Call</h4>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4"
+                                        placeholder="Write your message"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-40">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------Modal-Section-End----------------------------->
+
+
+
+    <!----------------------About-Section-Start---------------------------->
+
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main-about-banner-section">
+                    <div class="about-main-text-section" data-aos="zoom-out-right" data-aos-duration="1600">
+
+                        <div class="link-items-whole-about">
+                            <a href="index.html">Home</a>
+                            <a href=""><span class="text-white">/About</span></a>
+                        </div>
+
+                        <div class="about-text-heading">
+                            Revolutionizing Enterprise Solutions, Technology, Work Processes & Customer Experience
+                        </div>
+                        <div class="about-text-paragraph">
+                            <p> Embracing deep-learning, business processes automation and AI to accelerate the
+                                accuracy, performance and customer experience of the lending process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!----------------------About-Section-End---------------------------->
+
+    <!----------------------Elegance-Section-Start---------------------------->
+
+    <section class="elegance-about-section">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <div class="elegance-text-section-about">
+                        <h1 id="under-line-elegance"></h1>
+                        <h1>At a glance</h1>
+                        <p>We offer fully managed services to help you navigate the ever-changing needs of mortgage
+                            technology.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="elegance-text-section-about">
+                        <h1>500+</h1>
+                        <p>Customers Served Worldwide</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="elegance-text-section-about">
+                        <h1>1000+</h1>
+                        <p>Client Hours Served</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="elegance-text-section-about">
+                        <h1>12+</h1>
+                        <p>Proud Year of Service in the Global IT Industry</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!----------------------Elegance-Section-End---------------------------->
+
+    <!----------------------What-WE-Do-Section-Start---------------------------->
+
+    <section class="about-what-we-do-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="what-we-text-sectio-about">
+                        <h1 id="under-line-what-we-do"></h1>
+                        <h1 data-aos="fade-right" data-aos-duration="1400">
+                            What We Do?
+                        </h1>
+                        <p>
+                            Viftech Solutions (Pvt.) Ltd., was launched in the year 2008 with the vision of providing
+                            the
+                            customers best value in the field of Software Development; we are committed to meet the
+                            ever-increasing demands of the burgeoning innovative technology and business driven
+                            professional
+                            services across the global.
+                        </p>
+                        <p>
+                            With a large pool of professional analysts, certified software engineers and developers we
+                            provide end-to-end solutions which include development, implementations, upgrades, training,
+                            and
+                            other information technology related services. The competent human resource at Viftech
+                            allows us
+                            to offer cutting-edge and robust solutions to our clients faster which offer them immediate
+                            business benefits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card p-4" style="width: 20rem;">
+                        <div class="card-body-what-we-do-text">
+                            <h5>Our Vision</h5>
+                            <p>Providing the customers best value in the field of Software
+                                Development while meeting the ever-increasing demands of innovative technology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-4" style="width: 20rem;">
+                        <div class="card-body-what-we-do-text mb-2">
+                            <h5>Our Offerings</h5>
+                            <p>Financial Applications, Data Reconciliation Solutions,
+                                Solutions, E-Commerce Solutions, SharePoint, BI Solutions,
+                                Web Design & Development and much more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----------------------What-WE-Do-Section-End---------------------------->
+
+
+    <!----------------------Trusted-Partners-About----------------------------->
+    <section class="trusted-main-about-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="Trusted-about-text-section">
+                        <h1 id="under-line-trusted"></h1>
+                        <h1 data-aos="fade-right" data-aos-duration="1400">Trusted by Our Partners Across the Globe</h1>
+                        <p data-aos="fade-left" data-aos-duration="1400">Clients from all over the world applaud our
+                            Custom Software Development & IT Consulting
+                            Services.
+                            Viftech Solutions has proudly served 500+ valuable clients with its simple yet smart
+                            solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------Trusted-Partners-About-End----------------------------->
+
+    <!----------------------About-section-logo-bar-------------------------------------->
+
+    <section class="about-main-logo-bar-section">
+        <div class="container">
+            <div class="row">
+                <div class="aside-about-logo-bar-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div>
+                        <img src="images/award-csp-sm.webp" alt="">
+                    </div>
+                    <div>
+                        <img src="images/award-pseb.webp" alt="">
+                    </div>
+                    <div>
+                        <img src="images/award-pasha.webp" alt="">
+                    </div>
+                    <div>
+                        <img src="images/micro-partner.webp" alt="">
+                    </div>
+                    <div>
+                        <img src="images/iso-certified.webp" alt="">
+                    </div>
+                    <div>
+                        <img src="images/iso-27001.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------About-section-logo-bar-End-------------------------------------->
+
+
+    <!--------------------Work-philosophy-about-section--------------->
+
+    <section class="Philosophy-main-about-section">
+
+        <div class="container">
+            <div class="Philosophy-text-section">
+                <h1 id="under-line-philosophy"></h1>
+                <h1 data-aos="fade-left" data-aos-duration="1400">Our Work Philosophy</h1>
+                <p data-aos="fade-right" data-aos-duration="1400">Customers always remain at the core focus at ATI. We
+                    work hand-in-hand with our clients to come up
+                    with the solutions that immediately address their pain point while keeping their prosperity and
+                    profitability at the top.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="cstm-card-philosophy">
+                        <div class="cstm-card-philosophy-text">
+                            <h1>High Integrity</h1>
+                            <p>We never compromise on professionalism and maintain strong ethics throughout our work
+                                process.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="cstm-card-philosophy">
+                        <div class="cstm-card-philosophy-text">
+                            <h1>atchless Determination</h1>
+                            <p>Our mantra of ‘We Can Do & We Will Do’ enables us putting the best efforts all the time..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="cstm-card-philosophy">
+                        <div class="cstm-card-philosophy-text">
+                            <h1>Optimal Profitability</h1>
+                            <p>Your optimal prosperity & profitability is always at the core of our services &
+                                solutions..</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------------------Work-philosophy-about-section-end--------------->
+
+
+    <!------------------our-tech-process-about-section-------------------->
+
+    <section class="main-our-tech-section-about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="our-tech-text-section-about">
+                        <h1 id="under-line-tech"></h1>
+                        <h1 data-aos="fade-left" data-aos-duration="1400">
+                            Our Tech Process</h1>
+                        <p data-aos="fade-right" data-aos-duration="1400">We provide administrative and custom
+                            development services to complement your existing
+                            technology stack while providing value-added services and solutions to streamline your
+                            business workflow and processes.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------our-tech-process-about-section-End-------------------->
+
+
+
+    <section class="website-2nd-last-section">
+
+        <div class="container-fluid">
+            <div class="row">
+                <!---------------Start-A-Project--------------->
+
+                <div class="col-lg-6">
+                    <div class="start-a-project-left-side">
+                        <img src="images/brownrocket.png" style="width:70px;">
+                        <h1> Start a Project With Us</h1>
+                        <p> Call us now to get an estimate.</p>
+
+                        <div class="d-flex gap-5">
+                            <p> <img src="images/brwoncall.png" style="width:35px;"> <span class="fs-3">Schedule A
+                                    Call</span><br>
+                                <span> Call Us Anytime</span>
+                            </p>
+
+                            <p> <img src="images/brownmessage.png" style="width:35px;"> <span class="fs-3">Live
+                                    Chat</span><br> <span>
+                                    Discuss Your Project</span></p>
+                        </div>
+
+                        <div class="cstm-iframe-according-mobile-device">
+                            <iframe
+                                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.8932952706573!2d67.09984051537614!3d24.833322452459768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33bb6d613b987%3A0xdef6c553e0e92a35!2sViftech%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1582200717870!5m2!1sen!2s"
+                                width="500" height="330" frameborder="0" style="border: 0px; pointer-events: none;"
+                                allowfullscreen=""
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.8932952706573!2d67.09984051537614!3d24.833322452459768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33bb6d613b987%3A0xdef6c553e0e92a35!2sViftech%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1582200717870!5m2!1sen!2s"
+                                class=" lazyloaded" data-load-mode="1"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!---------------Start-A-Project-End--------------->
+
+                <!---------------Get-In-Touch--------------->
+
+                <div class="col-lg-6 mb-1">
+                    <div class="get-in-touch-section-right-side">
+                        <img src="images/brownmail.png" style="width:60px;">
+
+                        <h1> Get In Touch</h1>
+                        <p>Talk to our experts in USA and Pakistan for your next IT development project.</p>
+                        <form action="" class="row">
+                            <div class="col-md-6 mb-1">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <select class="form-select p-3 text-muted" aria-label="Default select example">
+                                    <option selected class="text-muted">Please Select</option>
+                                    <option value="1" class="text-muted">Website-development</option>
+                                    <option value="2" class="text-muted">App Development</option>
+                                    <option value="3" class="text-muted">SharePoint Development</option>
+                                    <option value="4" class="text-muted">Custom Development</option>
+                                    <option value="4" class="text-muted">Software Development</option>
+                                </select>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <select class="form-select p-3 text-muted" aria-label="Default select example">
+                                    <option selected class="text-muted">Please Select</option>
+                                    <option value="1" class="text-muted">Website-development</option>
+                                    <option value="2" class="text-muted">App Development</option>
+                                    <option value="3" class="text-muted">SharePoint Development</option>
+                                    <option value="4" class="text-muted">Custom Development</option>
+                                    <option value="4" class="text-muted">Software Development</option>
+                                </select>
+
+                            </div>
+
+                            <div class="col mt-3">
+                                <div class="form-floating">
+                                    <textarea class="form-control p-5" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Comments</label>
+                                </div>
+                            </div>
+
+                            <div class="text-center mt-5">
+                                <a href="">
+                                    <button type="button" class="brown-btn">Submit</button>
+                                </a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!---------------Get-In-Touch-End--------------->
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------------First-Custom-Footer-Section------------------>
+    <footer>
+        <section class="first-custom-footer-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h5>Quick Links</h5>
+                        <div class="main-list-cst-items">
+                            <ul>
+                                <li> <a href="">About Us</a></li>
+                                <li> <a href="">Blog</a></li>
+                                <li> <a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Address</h5>
+                            <span></span>
+                            <p>
+                                Suite 512, 5 Floor,
+                                Business Avenue,
+                                Shahrah-e-Faisal,
+                                Karachi, Pakistan
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3">
+
+                        <h5>services</h5>
+                        <div class="main-list-cst-items">
+                            <ul>
+                                <li> <a href=""> Website-development</a></li>
+                                <li><a href=""> App-development</a></li>
+                                <li><a href=""> Mobile-development</a></li>
+                                <li><a href=""> Softaware-development</a></li>
+                                <li><a href=""> Website-development</a></li>
+                                <li><a href=""> Website-development</a></li>
+                                <li><a href=""> Website-development</a></li>
+                                <li><a href=""> Website-development</a></li>
+                                <li><a href="">data Warning</a></li>
+                                <li><a href=""> IOT-development</a></li>
+                                <li><a href=""> AI Services</a></li>
+                                <li><a href=""> Hardware Service</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h5>Product</h5>
+                        <div class="main-list-cst-items">
+                            <ul>
+                                <li><a href="">CRM</a></li>
+                                <li><a href="">E-Flow</a></li>
+                                <li><a href="">Document Management System</a></li>
+                                <li><a href="">HR Mamangement System</a></li>
+                                <li><a href="">University Mamangement System</a></li>
+                                <li><a href="">Visitor Mamangement System</a></li>
+                            </ul>
+                            <h5>Industries</h5>
+                            <div class="main-list-cst-items">
+                                <ul>
+                                    <li><a href="">Banking</a></li>
+                                    <li><a href="">Oil & gas</a></li>
+                                    <li><a href="">Government</a></li>
+                                    <li><a href="">Pharma</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="main-list-cst-items">
+                            <h5>Contact Us</h5>
+                            <ul>
+                                <li><a href="mailto:help@viftech.com"><i class="bi bi-envelope"></i>
+                                        <strong>help@viftech.com
+                                        </strong></a></li>
+                                <li><a href="mailto:help@viftech.com"><i class="bi bi-telephone"></i>
+                                        <strong>(021)351227341</strong></a></li>
+                            </ul>
+                        </div>
+                        <h5>Go Social With Us</h5>
+                        <div class="main-list-cst-items mini-icons-aisde">
+                            <div>
+                                <a href="">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <i class="bi bi-pinterest"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="image-aside-top-section">
+                            <div class="footer-small-images">
+                                <img src="images/iso-certified.webp" alt="">
+                            </div>
+                            <div class="footer-small-images">
+                                <img src="images/iso-27001.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="footer-last-iamge-alone">
+                                <img src="images/micro-partner.webp" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--------------------------First-Custom-Footer-Section------------------>
+
+
+    <!------------------------Last-Custom-Footer----------------->
+    <section class="last-custom-footer-section">
+        <div class="container-fluid main-inner-footer">
+            <div class="row">
+                <div class="col-lg-6 text-start">
+                    © 2021 Viftech Solutions. All rights reserved
+                </div>
+                <div class="col-lg-6 text-end">
+                    Privacy Policy/ Contact Us
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!------------------------Last-Custom-Footer-End----------------->
+
+
+    <!--------------Bootstap-Script-File--------------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <!--------------Bootstap-Script-File-End--------------------------------------------->
+    
+    <!-----------------Animation-Js---------------------->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
